@@ -1,11 +1,10 @@
 /* CSS */
-.animar {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s, transform 0.5s;
+.rede-social {
+  transition: transform 0.3s, color 0.3s;
 }
 
-.animar.visivel {
-  opacity: 1;
-  transform: translateY(0);
+.rede-social:hover {
+  transform: scale(1.2);
+  color: #ff5733;
 }
+
