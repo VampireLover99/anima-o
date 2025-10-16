@@ -105,3 +105,12 @@
     color: #ffffff;
     text-decoration: none;
   } 
+/* CSS */
+.rede-social {
+  transition: transform 0.3s, color 0.3s;
+}
+
+.rede-social:hover {
+  transform: scale(1.2);
+  color: #ff5733;
+}
